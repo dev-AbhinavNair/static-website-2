@@ -1,0 +1,552 @@
+@font-face {
+  font-family: 'Rajadhani';
+  src: url('../luxary-car/assets/fonts/Rajdhani-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Rajadhani-Bold';
+  src: url('../luxary-car/assets/fonts/Rajdhani-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Rajadhani';
+    /* background-color: #000; */
+}
+
+
+.a {
+  background: url('../luxary-car/assets/background-home.png') no-repeat;
+  background-size: cover;
+   width: 100%;
+  height: 850px;
+}
+
+.aboutchild button {
+  margin-top: 200px;
+  font-size: 40px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 40px;
+  background-color: #333366FF;
+  color: white;
+}
+
+.section2 {
+  width: 1904px; 
+  height: 950px;
+  background: #171A1FFF;
+}
+
+.section2contents {
+  padding: 127px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-family: 'Rajadhani-Bold';
+  font-size: 40px;
+}
+
+.learnMoreButton button{
+  margin-top: 30%;
+  margin-left: 35%;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  width: 150px;
+}
+
+.section3 {
+  width: 1904px; 
+  height: 870px;
+  display: flex;
+  background-color: #000;
+}
+
+.section3contents {
+  font-size: 36px;
+  padding-top: 175px;
+  margin-left: 165px;
+  padding-right: 150px;
+  color: white;
+}
+
+.section3contents p {
+  margin-top: 25px;
+}
+
+.section3Image img {
+  padding-top: 6px;
+  margin-top: 200px;
+  margin-right: 20px;
+  width: 560px;
+  height: 425px;
+
+}
+
+.section4 {
+  color: white;
+  width: 1904px; 
+  height: 700px;
+  background: #171A1FFF;
+}
+
+
+.section4Head h1 {
+  padding-top: 127px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Rajadhani-Bold';
+  font-size: 40px;
+}
+
+.container {
+  margin-top: 100px;
+  background: #171A1FFF;
+  padding-bottom: 100px;
+}
+
+.commentContainer{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.comments {
+  
+ font-size: 20px;
+  width: 545px;
+  height: 270px; 
+  background-color:  #1E2128FF;
+  color: #BDC1CAFF;
+  margin-top: 30px;
+}
+
+.commenText {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.commenterName {
+  margin-top: 50px;
+  margin-left: 33px;
+  color: #333366FF;
+}
+
+.stars {
+  margin-left: 33px;
+}
+
+.section5 {
+  background: #181830FF;
+  background-size: cover;
+  height: 761px;
+}
+
+.aboutchild{
+    
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+.section5Content {
+  margin-top: 50px;
+}
+
+.section5Button {
+  margin-top: 100px;
+  margin-left: 35%;
+  font-size: 40px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 40px;
+  background-color: #333366FF;
+  color: white;
+}
+
+.footForHome {
+  width: 1904px; 
+  height: 300px;
+  background-color: black;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #333366FF;
+}
+
+.homeFootForNameAndLogo {
+  
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.homeFootForNameAndLogo img {
+  margin-top: 105px;
+  margin-right: 5px;
+}
+
+.homeFootForNameAndLogo h1 {
+  margin-top: 100px;
+  color: white;
+}
+
+.footHomeInfo {
+  font-size: 20px;
+}
+
+.Moto {
+  color: white;
+  font-size: 25px;
+  margin-left: 800px;
+  margin-top: 25px;
+  /* padding-top: 30px;
+  padding-left: 196px; */
+}
+
+.logoBox {
+  margin-left: 800px;
+}
+
+.end-logos-home {
+  margin-top: 28px;
+  margin-left: 45px;
+}
+
+.footHomeInfo h1{
+  color: white;
+}
+
+
+
+/* SERVICES PAGE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.serverBody {
+  background-color: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #000;
+    color: white;
+}
+
+.nav1{
+    display: flex;
+    color: #333366FF;
+}
+
+.nav2 a{
+    margin-right: 19px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav3btn1{
+    background-color: rgb(0, 0, 0);
+    padding: 12px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    margin-right: 12px;
+    border: #404040FF solid;
+}
+
+.nav3btn2 {
+    background: #333366FF; 
+    padding: 14px;
+    border-radius: 6px;
+    color: white;
+}
+
+.nav3 img {
+    position: relative;
+    top: 7px;
+}
+
+.about {
+  background: url('../luxary-car/assets/page2background.png') no-repeat;
+  background-size: cover;
+   width: 100%;
+  height: 761px;
+}
+
+.about-overlay {
+  background: #00000057;
+  width: 100%;
+  height: 100%;
+}
+
+.about button {
+  margin-top: 50px;
+  font-size: 40px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 40px;
+  background-color: #333366FF;
+  color: white;
+}
+
+.aboutchild{
+    
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
+.aboutchild h1{
+  padding-top: 200px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Rajadhani-Bold';
+}
+
+span {
+  font-family: 'Rajadhani-Bold';
+}
+
+
+.aboutchild p {
+    font-size: 20px; 
+  line-height: 28px; 
+  font-weight: 400;
+}
+
+.containerr h1{
+    padding-top: 64px;
+    text-align: center;
+    color: white;
+}
+
+.card{
+    font-size: 20px;
+    width: 420px;
+    height: 460px; 
+    background-color:  #1E2128FF;
+    color: #BDC1CAFF;
+    margin-top: 30px;
+   
+}
+
+
+.card h1{
+    background-color:  #1E2128FF;
+}
+
+.card h2 {
+  margin-top: 50px;
+  color: #333366FF;
+}
+
+.cardcontainer{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cardText {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.whyLuminosityBox {
+  margin-top: 100px;
+  background: #171A1FFF;
+  padding-bottom: 100px;
+}
+
+.whyLuminosityBox h1{
+  text-align: center;
+  color: white;
+
+}
+
+.containerr2 {
+  
+ font-size: 20px;
+  width: 545px;
+  height: 270px; 
+  background-color:  #1E2128FF;
+  color: #BDC1CAFF;
+  margin-top: 30px;
+}
+
+.cardImg {
+  margin-left: 43%;
+  margin-top: 25px;
+}
+
+.containerr2Box1 {
+  width: 520px;
+  height: 208px;
+  color: #333366FF;
+  background: #1E2128FF;
+  text-align: center;
+  
+}
+
+.containerr3 {
+    padding-top: 125px;
+    text-align: center;
+    color: white;
+}
+
+.containerr3 p {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.containerr3 button {
+  margin-top: 50px;
+  font-size: 40px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 40px;
+  background-color: #333366FF;
+  color: white;
+}
+
+.foot {
+  margin: 50px;
+  color: white;
+  display: flex;
+}
+
+.foot p {
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.end-logos {
+  margin-top: 28px;
+  margin-left: 60%;
+}
+
+.foot img {
+  margin-left: 25px;
+}
+
+/* Products !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.productsBody {
+  background-color: black;
+}
+
+.productsLandPage {
+  margin-top: 100px;
+  font-family: 'Rajadhani-Bold';
+  font-size: larger;
+  text-align: center;
+  color: white;
+}
+
+.productsLandPage p {
+  width: 650px;
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+.protection {
+  width: 1550px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 150px;
+  color: white;
+}
+
+.protection h1 {
+  margin-left: 107px;
+}
+
+.card2 button {
+  background: #333366FF;
+  margin-top: 30px;
+  margin-left:104px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: larger;
+}
+
+.sec2 {
+  margin-top: 200px;
+}
+
+.card2 {
+    font-size: 20px;
+    width: 420px;
+    height: 480px; 
+    background-color:  #1E2128FF;
+    color: #BDC1CAFF;
+    margin-top: 30px;
+   
+}
+
+.footServices{
+  margin-top: 150px;
+  color: white;
+  display: flex;
+}
+
+.contactBody {
+  background-color: black;
+}
+
+.touchMe {
+  margin-top: 150px;
+  margin-left: 144px;
+  background: #1E2128FF;
+  width: 544px; 
+  height: 700px;
+  border-radius: 6px;
+  color: white;
+}
+
+.touchMe h1,p{
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.writeOnMe {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.writeOnMe input {
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+  background: #171717FF;
+  color: white;
+}
+
+.writeOnMe1 {
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.writeOnMe1 input {
+  margin-top: 10px;
+  width: 500px;
+  height: 100px;
+  background: #171717FF;
+  color: white;
+}
+
+.touchMe button {
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 500px;
+  height: 50px;
+  color: white;
+  background: #333366FF;
+}
